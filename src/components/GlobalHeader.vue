@@ -23,12 +23,6 @@
         </div>
       </a-col>
     </a-row>
-
-    <!-- <a-menu v-model:selectedKeys="current" mode="horizontal" :items="items">
-      <div class="user-login-status">
-        <a-button type="primary" href="/user/login">登录</a-button>
-      </div>
-    </a-menu> -->
   </div>
 </template>
 <script lang="ts" setup>
