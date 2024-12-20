@@ -28,13 +28,11 @@
 <script lang="ts" setup>
 import { h, ref } from 'vue'
 import { HomeOutlined } from '@ant-design/icons-vue'
-import { MenuProps } from 'ant-design-vue'
 
 import { useRouter } from 'vue-router'
 const router = useRouter()
-
 const current = ref<string[]>(['home'])
-const items = ref<MenuProps['items']>([
+const items = ref([
   {
     key: '/',
     icon: () => h(HomeOutlined),

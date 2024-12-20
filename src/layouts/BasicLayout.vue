@@ -14,8 +14,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
-import GlobalHeader from '../components/GlobalHeader.vue'
+<script lang="ts" setup>
+import GlobalHeader from '@/components/GlobalHeader.vue'
 </script>
 
 <style scoped>
