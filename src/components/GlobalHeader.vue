@@ -14,7 +14,7 @@
           v-model:selectedKeys="current"
           mode="horizontal"
           :items="items"
-          @clickl="doMenuClick"
+          @click="doMenuClick"
         />
       </a-col>
       <a-col flex="120px">
@@ -44,11 +44,11 @@ const items = ref([
     label: '关于',
     title: '关于',
   },
-  {
-    key: 'others',
-    label: h('a', { href: 'https://www.codefather.cn', target: '_blank' }, '编程导航'),
-    title: '编程导航',
-  },
+  // {
+  //   key: 'others',
+  //   label: h('a', { href: 'https://www.codefather.cn', target: '_blank' }, '编程导航'),
+  //   title: '编程导航',
+  // },
 ])
 
 // 路由跳转事件

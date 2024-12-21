@@ -4,7 +4,9 @@
       <a-layout-header class="header">
         <GlobalHeader />
       </a-layout-header>
-      <a-layout-content> 12121</a-layout-content>
+      <a-layout-content>
+        <router-view />
+      </a-layout-content>
       <a-layout-footer>
         <a-layout-footer class="footer">
           <a href="https://www.codefather.cn" target="_blank"> 图匠 - 面试匠 </a>
